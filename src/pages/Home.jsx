@@ -4,8 +4,6 @@ import HomeSection from "../components/HomeMain";
 import CoreValues from "../components/CoreValues";
 import AboutSection from "../components/Aboutmain";
 import Appointment from "../components/Appointment";
-import ServicesSection from "../components/Services";
-import NewsSection from "../components/News";
 import Footer from "../components/Footer";
 import Projects from "../components/Projects";
 import Marquee from "../components/Marquee";
@@ -20,8 +18,7 @@ const Home = () => {
         <Appointment />
         <Projects />
         <Marquee />
-        <ServicesSection />
-        <NewsSection />
+        <br />
         <Footer /> 
       </main>
     </>
