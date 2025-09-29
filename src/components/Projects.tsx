@@ -142,11 +142,12 @@ const Projects = () => {
     
     {/* Left Image (Amal Logo) */}
     <div className="col-span-5 rounded-xl overflow-hidden shadow-lg flex items-center justify-center bg-white">
-      <img
-        src={amalLogo}
-        alt="Amal Fellowship Logo"
-        className="w-3/4 h-96 object-cover"
-      />
+    <img
+  src={amalLogo}
+  alt="Amal Fellowship Logo"
+  className="w-full md:w-3/4 h-96 object-cover"
+/>
+
     </div>
     
     {/* Right Content */}
