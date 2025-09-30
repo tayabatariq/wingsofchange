@@ -41,7 +41,7 @@ export default function ContactPage() {
             <h3 className="text-xl font-medium text-gray-800 mb-3">Follow Us</h3>
             <div className="flex gap-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/1Hsa8xRctZ/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 text-gray-600 hover:bg-indigo-600 hover:text-white transition"
@@ -49,7 +49,7 @@ export default function ContactPage() {
                 <FaFacebookF />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/win.gsofchange?igsh=d2lodzV5YmdqY3R3"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 text-gray-600 hover:bg-indigo-600 hover:text-white transition"

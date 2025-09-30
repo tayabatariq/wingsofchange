@@ -1,16 +1,17 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import NewsSection from "../components/News";
 import ServicesSection from "../components/Services";
+import AboutSection from '../components/AboutSection';
 
 
 
 const About = () => {
   return (
     <>
+    <AboutSection/>
+
         <ServicesSection />
 
-        <NewsSection />
 
         <Footer /> 
 

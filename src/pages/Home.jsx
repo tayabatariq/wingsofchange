@@ -7,6 +7,8 @@ import Appointment from "../components/Appointment";
 import Footer from "../components/Footer";
 import Projects from "../components/Projects";
 import Marquee from "../components/Marquee";
+import Teammembers from "../components/Teammembers";
+import PartnerSection from "../components/PartnerSection";
 
 const Home = () => {
   return (
@@ -15,9 +17,12 @@ const Home = () => {
         <HomeSection />
         <CoreValues />
         <AboutSection />
+        <Teammembers/>
+<PartnerSection/>
+        <Marquee />
+<br />
         <Appointment />
         <Projects />
-        <Marquee />
         <br />
         <Footer /> 
       </main>

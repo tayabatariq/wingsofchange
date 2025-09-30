@@ -34,18 +34,18 @@ const Footer = () => {
           </h3>
           <ul className="space-y-5">
             <li>
-              <a href="#" className="transition hover:text-tomato-red">
+              <a href="about" className="transition hover:text-tomato-red">
                 About us
               </a>
             </li>
             <li>
-              <a href="#" className="transition hover:text-tomato-red">
-                Projects
+              <a href="gallery" className="transition hover:text-tomato-red">
+                Gallery
               </a>
             </li>
             <li>
-              <a href="#" className="transition hover:text-tomato-red">
-                News
+              <a href="contact" className="transition hover:text-tomato-red">
+                Contact 
               </a>
             </li>
             <li>
@@ -62,17 +62,17 @@ const Footer = () => {
 
           {/* Social Links under Quick Links */}
           <div className="flex gap-5 mt-6">
-            <a href="#">
+            <a href="https://www.facebook.com/share/1Hsa8xRctZ/" target="_blank">
               <img src={fb} alt="facebook" />
             </a>
             <a href="#">
-              <img src={twitter} alt="twitter" />
+              <img src={twitter} alt="twitter" target="_blank"/>
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/win.gsofchange?igsh=d2lodzV5YmdqY3R3" target="_blank">
               <img src={insta} alt="instagram" />
             </a>
             <a href="#">
-              <img src={linkedin} alt="linkedin" />
+              <img src={linkedin} alt="linkedin" target="_blank" />
             </a>
           </div>
         </div>
@@ -118,9 +118,9 @@ const Footer = () => {
           <p className="text-base max-lg:text-sm">
             Copyright © 2025 All Rights Reserved
           </p>
-          <p className="text-base max-lg:text-sm font-medium">
+          <p className="text-base uppercase max-lg:text-sm font-medium">
             Website designed by{" "}
-            <span className="font-semibold">Tayaba & Imman</span>
+            <span className="font-semibold">Tayaba & Imaan</span>
           </p>
         </div>
       </div>
