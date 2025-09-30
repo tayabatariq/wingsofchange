@@ -25,10 +25,11 @@ const teamMembers = [
     linkedin: "https://www.facebook.com/share/17oSFdvCnH/"
   },
   { 
-    name: "Imaan Maqsood", 
-    image: member3,
-    facebook: "https://www.linkedin.com/in/imaan-maqsood?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    linkedin: "https://www.linkedin.com/in/imaan-maqsood?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+
+    name: "Tayaba Tariq", 
+    image: member4,
+    facebook: "https://www.linkedin.com/in/tayaba-tariq-a272a8357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    linkedin: "https://www.linkedin.com/in/tayaba-tariq-a272a8357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   { 
     name: "Muhammad Shehryar", 
@@ -37,11 +38,12 @@ const teamMembers = [
     linkedin: "https://www.linkedin.com/in/mrmshehryar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   { 
-    name: "Tayaba Tariq", 
-    image: member4,
-    facebook: "https://www.linkedin.com/in/tayaba-tariq-a272a8357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    linkedin: "https://www.linkedin.com/in/tayaba-tariq-a272a8357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    name: "Imaan Maqsood", 
+    image: member3,
+    facebook: "https://www.linkedin.com/in/imaan-maqsood?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    linkedin: "https://www.linkedin.com/in/imaan-maqsood?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
+  
   { 
     name: "Faisal Farooq", 
     image: member5,
