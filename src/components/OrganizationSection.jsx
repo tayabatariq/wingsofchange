@@ -58,21 +58,14 @@ const OrganizationSection = () => {
               <FaFacebookF />
             </a>
             <a
-              href="https://instagram.com/"
+              href="https://www.instagram.com/explore/locations/525282047847101/apna-ghar-muslam-yateem-khana/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-full bg-pink-500 text-white hover:bg-pink-600 transition"
             >
               <FaInstagram />
             </a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-10 h-10 flex items-center justify-center rounded-full bg-sky-500 text-white hover:bg-sky-600 transition"
-            >
-              <FaTwitter />
-            </a>
+           \
             <a
               href="https://linkedin.com/"
               target="_blank"

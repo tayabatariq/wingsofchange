@@ -1,4 +1,6 @@
 import React from "react";
+  import { Link ,useNavigate } from "react-router-dom";
+
 import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
 import {
   banner_blob,
@@ -11,6 +13,11 @@ import {
 import ButtonSolid from "./ui/buttons/ButtonSolid";
 
 const HomeSection = () => {
+   const navigate = useNavigate();  // ✅ hook use karo
+
+    const gotoContact = () => {
+      navigate("/contact");  // ✅ React Router way
+    };
   return (
     <>
       <section className="bg-[#eef4f8] relative z-[1] overflow-hidden">
@@ -41,7 +48,7 @@ const HomeSection = () => {
                We believe every student has the potential to become a confident leader and an active member of society. Through engaging social activities, workshops, and team-based learning, we inspire young minds to think creatively, communicate effectively, and take responsibility for creating a better future.
 
               </p>
-              <ButtonSolid />
+              <ButtonSolid onClick={gotoContact} text="Contact us" />
             </div>
           </div>
           <div className="w-1/2 max-lg:w-full">

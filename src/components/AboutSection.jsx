@@ -42,6 +42,10 @@ const ServiceCard = ({ icon, title, description }) => (
 
 
 const AboutSection = () => {
+const gotoContact = () => {
+  window.location.href = "/contact";  // <-- .href use karna hota hai
+};
+
   return (
     <>
       <script src="https://cdn.tailwindcss.com"></script>
@@ -64,9 +68,9 @@ const AboutSection = () => {
         </p>
         <button
           className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-8 rounded-full shadow-xl transform hover:scale-105 transition duration-300 ease-in-out"
-          onClick={() => console.log('Donate action')}
+          onClick={gotoContact}
         >
-          Donate Now 💖
+          Contact us
         </button>
       </div>
 

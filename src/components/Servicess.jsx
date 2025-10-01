@@ -58,21 +58,23 @@ const services = [
 
 
 const Servicess = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2500,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-    responsive: [
-      { breakpoint: 1280, settings: { slidesToShow: 2 } },
-      { breakpoint: 768, settings: { slidesToShow: 1 } },
-    ],
-  };
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 600,
+  slidesToShow: 3,   // desktop
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2500,
+  nextArrow: <NextArrow />,
+  prevArrow: <PrevArrow />,
+  responsive: [
+    { breakpoint: 1280, settings: { slidesToShow: 2 } }, // tablet
+    { breakpoint: 768, settings: { slidesToShow: 1 } },  // mobile
+  ],
+};
+
+
 
   return (
     <section className="pb-28 max-sm:pb-20 pt-36 max-lg:pt-28 relative z-[1] overflow-hidden">
