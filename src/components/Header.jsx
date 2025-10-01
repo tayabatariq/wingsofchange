@@ -31,7 +31,7 @@
               <Link to="/">
                 <img
                   src={logoimg}
-                  className="w-40 md:w-48 xl:w-32 2xl:w-[100px]"
+                  className="w-20 md:w-32 xl:w-32 2xl:w-[100px]"
                   alt="logo img"
                 />
               </Link>
