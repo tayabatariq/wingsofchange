@@ -92,7 +92,7 @@
             ))}
 
             {/* Donate Button */}
-            <Button navbtn="Donate now" className="mt-4" />
+            <Button onClick={gotoContact} navbtn="Contact us" className="mt-4" />
           </div>
         </div>
 
