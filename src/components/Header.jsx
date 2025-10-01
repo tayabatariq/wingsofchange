@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; // ✅ import Link
+import { Link } from "react-router-dom";
 import Button from "./ui/buttons/Button";
 import { burger, logo } from "../assets";
 import logoimg from "../assets/images/logo.png";
+import { IoClose } from "react-icons/io5"; // ❌ close icon for mobile menu
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -11,55 +12,92 @@ const navLinks = [
   { name: "Gallery", path: "/gallery" },
   { name: "Contact", path: "/contact" },
   { name: "Events", path: "/events" },
-
 ];
 
 const Header = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <header>
+    <header className="sticky top-0 z-50 bg-white shadow-md">
       <div className="container">
         <nav className="w-full py-3 flex justify-between items-center relative">
+          {/* Logo */}
           <div className="logo">
             <Link to="/">
               <img
                 src={logoimg}
-                className="w-52 max-sm:w-36 md:w-48 xl:w-28 2xl:w-[100px]"
+                className="w-40 md:w-48 xl:w-32 2xl:w-[100px]"
                 alt="logo img"
               />
             </Link>
           </div>
 
-          <div
-            className={`grid transition-[grid-template-rows] duration-500 ease-in-out overflow-hidden max-lg:gap-4 max-lg:items-start max-lg:w-full max-lg:absolute max-lg:top-full max-lg:left-0 max-lg:bg-white max-lg:shadow-sm max-lg:flex-col z-10 2xl:mr-32
-            ${isExpanded ? "grid-rows-[1fr] max-lg:pb-2" : "grid-rows-[0fr]"}
-            lg:grid-rows-[1fr]`}
-          >
-            <div className="overflow-hidden flex flex-col lg:flex-row items-center gap-6 lg:gap-12 ">
-              {navLinks.map((nav, index) => (
-                <Link
-                  key={index}
-                  to={nav.path}
-                  className="relative text-dark-navy transition hover:text-tomato-red cursor-pointer after:mx-auto after:block after:h-[1px] after:w-0 after:bg-tomato-red after:transition-all hover:after:w-8 after:mt-2 after:absolute after:bottom-0 after:left-0 after:right-0 max-sm:pb-1 max-xl:text-sm"
-                >
-                  {nav.name}
-                </Link>
-              ))}
-            </div>
+          {/* Desktop Links */}
+          <div className="hidden lg:flex items-center gap-10">
+            {navLinks.map((nav, index) => (
+              <Link
+                key={index}
+                to={nav.path}
+                className="relative text-dark-navy transition hover:text-tomato-red cursor-pointer after:mx-auto after:block after:h-[2px] after:w-0 after:bg-tomato-red after:transition-all hover:after:w-8 after:mt-1"
+              >
+                {nav.name}
+              </Link>
+            ))}
           </div>
 
+          {/* Donate Button */}
           <Button navbtn="Donate now" className="hidden lg:block" />
 
+          {/* Mobile Burger Button */}
           <button
             type="button"
             className="lg:hidden"
-            onClick={() => setIsExpanded(!isExpanded)}
+            onClick={() => setIsExpanded(true)}
           >
-            <img width={35} height={35} src={burger} alt="hamburger menu" />
+            <img width={30} height={30} src={burger} alt="hamburger menu" />
           </button>
         </nav>
       </div>
+
+      {/* Mobile Menu - Slide In */}
+      <div
+        className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-500 ease-in-out z-50 ${
+          isExpanded ? "translate-x-0" : "translate-x-full"
+        }`}
+      >
+        {/* Close Button */}
+        <div className="flex justify-between items-center px-5 py-4 border-b">
+          <img src={logoimg} className="w-28" alt="logo" />
+          <button onClick={() => setIsExpanded(false)}>
+            <IoClose size={28} className="text-gray-600 hover:text-tomato-red" />
+          </button>
+        </div>
+
+        {/* Mobile Nav Links */}
+        <div className="flex flex-col p-5 gap-5">
+          {navLinks.map((nav, index) => (
+            <Link
+              key={index}
+              to={nav.path}
+              className="text-dark-navy text-lg font-medium hover:text-tomato-red transition"
+              onClick={() => setIsExpanded(false)} // close menu on click
+            >
+              {nav.name}
+            </Link>
+          ))}
+
+          {/* Donate Button */}
+          <Button navbtn="Donate now" className="mt-4" />
+        </div>
+      </div>
+
+      {/* Background Overlay when menu open */}
+      {isExpanded && (
+        <div
+          className="fixed inset-0 bg-black/40 z-40"
+          onClick={() => setIsExpanded(false)}
+        />
+      )}
     </header>
   );
 };

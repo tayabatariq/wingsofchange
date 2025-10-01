@@ -1,7 +1,7 @@
 import React from "react";
 
 // Example logos (replace these with your own company logo paths)
-import logo1 from "../assets/images/ataialogo.jpg";
+import logo1 from "../assets/images/atialooogo.png";
 import logo2 from "../assets/images/ammallogo.png";
 import logo3 from "../assets/images/logo.png";
 

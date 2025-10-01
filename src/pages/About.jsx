@@ -1,6 +1,5 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import ServicesSection from "../components/Services";
 import AboutSection from '../components/AboutSection';
 
 
@@ -10,7 +9,6 @@ const About = () => {
     <>
     <AboutSection/>
 
-        <ServicesSection />
 
 
         <Footer /> 

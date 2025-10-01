@@ -9,6 +9,7 @@ import Projects from "../components/Projects";
 import Marquee from "../components/Marquee";
 import Teammembers from "../components/Teammembers";
 import PartnerSection from "../components/PartnerSection";
+import OrganizationSection from "../components/OrganizationSection";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <AboutSection />
         <Teammembers/>
 <PartnerSection/>
+<OrganizationSection/>
         <Marquee />
 <br />
         <Appointment />

@@ -9,6 +9,8 @@ import member4 from "../assets/team/member4.png";
 import member5 from "../assets/team/member5.jpg";
 import member7 from "../assets/team/member7.jpg";
 import member8 from "../assets/team/member8.jpg";
+import member9 from "../assets/team/member9.jpg";
+
 
 
 const teamMembers = [
@@ -61,6 +63,12 @@ const teamMembers = [
     image: member8,
     facebook: "https://www.facebook.com/share/1GpkSWnga2/",
     linkedin: "https://www.linkedin.com/in/amna-bibi-47201b37b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  }, 
+  { 
+    name: "Sanaullah kalhoro", 
+    image: member9,
+    facebook: "https://www.facebook.com/share/16xNTjDsZ1/",
+    linkedin: "https://www.facebook.com/share/16xNTjDsZ1/"
   },
 ];
 

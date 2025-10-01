@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import orpahnegs from '../assets/galleryimg/orpahnegs.jpg'
+import vsiit1 from '../assets/images/visitimg.jpg'
+import vsiit2 from '../assets/images/visitimg2.jpg'
+import vsiit3 from '../assets/images/visitimg3.jpg'
+
 import videohometour from '../assets/galleryimg/videoohometour.mp4'
 const Mediasection = () => {
   const [activeTab, setActiveTab] = useState("images");
@@ -40,17 +44,17 @@ const Mediasection = () => {
               className="rounded-lg shadow-md"
             />
             <img
-              src={orpahnegs}
+              src={vsiit1}
               alt="Random"
               className="rounded-lg shadow-md"
             />
             <img
-              src={orpahnegs}
+              src={vsiit2}
               alt="Random"
               className="rounded-lg shadow-md"
             />
              <img
-              src={orpahnegs}
+              src={vsiit3}
               alt="Random"
               className="rounded-lg shadow-md"
             />

@@ -1,5 +1,7 @@
 import React from 'react';
 import { Heart, Compass, Shield } from 'lucide-react';
+import Servicess from "../components/Servicess";
+
 
 const IMAGE_PLACEHOLDERS = {
   hero: "https://miramar.usmc-mccs.org/modules/media/t/5253ade0e5f544c4993fded7da8cfbcd.png?m=638312775111330000",
@@ -67,6 +69,9 @@ const AboutSection = () => {
           Donate Now 💖
         </button>
       </div>
+
+                <Servicess />
+
 
       {/* Image Gallery */}
       <div className="max-w-7xl mx-auto px-4 mt-16 md:mt-24">

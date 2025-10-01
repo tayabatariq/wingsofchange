@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import Events from "./pages/Events";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         <Route path="/events" element={<Events />} />
 
       </Routes>
-    
+    <WhatsAppButton/>
     </>
   );
 }
