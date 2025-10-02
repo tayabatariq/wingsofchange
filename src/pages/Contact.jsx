@@ -30,8 +30,8 @@ export default function ContactPage() {
 
             <h3 className="text-xl font-medium text-gray-800 mb-3">Get in Touch</h3>
             <ul className="space-y-2 text-gray-600">
-              <li> Location: Lahore, Pakistan</li>
-              <li> Phone: +92-300-1234567</li>
+              <li> Location: Faisalabad, Pakistan</li>
+              {/* <li> Phone: +92-300-1234567</li> */}
               <li> Email: wingsofchange@gmail.com</li>
             </ul>
           </div>
