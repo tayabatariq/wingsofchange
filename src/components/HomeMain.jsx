@@ -1,5 +1,6 @@
 import React from "react";
   import { Link ,useNavigate } from "react-router-dom";
+  import teamimg from '../assets/team/teemm.jpg'
 
 import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
 import {
@@ -52,23 +53,19 @@ const HomeSection = () => {
             </div>
           </div>
           <div className="w-1/2 max-lg:w-full">
-            <div className="absolute w-fit max-lg:w-7/12 max-sm:max-w-[500px] max-sm:w-full max-lg:mx-auto max-lg:relative bottom-0">
+            <div className="absolute w-fit  max-sm:max-w-[500px] max-sm:w-full max-lg:mx-auto max-lg:relative bottom-0">
               {/* max-xl:w-11/12 */}
-              <img src={homeimg} className="w-full  max-2xl:w-[80%] max-xl:w-[60%] max-lg:w-[80%]" alt="" />
+              <img src={teamimg} className="w-full mb-36 max-2xl:w-[80%] max-xl:w-[60%] max-lg:w-[80%]" alt="" />
               {/* top-[5%] */}
-              <div className="absolute right-[40%] left-[8%] max-xl:left-0 top-[30%] w-16 max-xl:w-12">
-                <img src={hand_price} alt="handpricelogo" />
+              <div className="absolute right-[10%] left-[8%] max-xl:left-0 top-[30%] w-16 max-xl:w-12">
+                {/* <img src={hand_price} alt="handpricelogo" /> */}
               </div>
-              {/* -left-[15%] max-sm:left-0*/}
-              <img
-                src={join_our_Team}
-                className="absolute bottom-5 right-0 max-xl:right-[15%] max-sm:right-0  w-2/5 max-sm:w-[45%] "
-                alt=""
-              />
+            
+
               {/* bottom-14 right-[10rem] max-sm:right-0 max-sm:bottom-5 w-1/3 */}
               <img
-                src={total_donations}
-                className="absolute  top-[20%] right-[-10%] max-2xl:right-0 max-xl:right-[15%] w-2/5 max-xl:w-2/6 max-lg:w-2/5 max-lg:-right-0 max-sm:w-[45%]"
+                src={join_our_Team}
+                className="absolute  top-[-10%] right-[-10%] max-2xl:right-0 max-xl:right-[15%] w-2/5 max-xl:w-2/6 max-lg:w-2/5 max-lg:-right-0 max-sm:w-[45%]"
                 alt=""
               />
             </div>

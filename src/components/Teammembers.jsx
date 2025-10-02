@@ -10,12 +10,13 @@ import member5 from "../assets/team/member5.jpg";
 import member7 from "../assets/team/member7.jpg";
 import member8 from "../assets/team/member8.jpg";
 import member9 from "../assets/team/member9.jpg";
+import member10 from "../assets/team/member10.jpg";
 
 
 
 const teamMembers = [
   { 
-    name: "Muhammad Humza", 
+    name: " Hamza Pervaiz", 
     image: member1,
     facebook: "https://www.facebook.com/share/1H5JvcZJgd/",
     linkedin: "https://www.facebook.com/share/1H5JvcZJgd/"
@@ -69,6 +70,12 @@ const teamMembers = [
     image: member9,
     facebook: "https://www.facebook.com/share/16xNTjDsZ1/",
     linkedin: "https://www.facebook.com/share/16xNTjDsZ1/"
+  },
+    { 
+    name: "Ayesha Sana", 
+    image: member10,
+    facebook: "https://www.facebook.com/profile.php?id=61576271782796",
+    linkedin: "https://www.linkedin.com/in/ayesha-sana-77b323222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
 ];
 

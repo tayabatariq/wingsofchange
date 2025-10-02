@@ -1,6 +1,7 @@
 import React from 'react';
 import { Heart, Compass, Shield } from 'lucide-react';
 import Servicess from "../components/Servicess";
+import PostsSection from './PostsSection';
 
 
 const IMAGE_PLACEHOLDERS = {
@@ -75,6 +76,7 @@ const gotoContact = () => {
       </div>
 
                 <Servicess />
+<PostsSection/>
 
 
       {/* Image Gallery */}
