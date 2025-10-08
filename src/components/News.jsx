@@ -2,6 +2,7 @@ import React from "react";
 import SideShapeHeading from "./ui/Headings/SideShapeHeading";
 import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
 import { black_boy_drinkwater, children_smiling, student_in_class } from "../assets";
+import session1 from '../assets/student/session11.jpg'
 
 const News = () => {
   return (
@@ -35,29 +36,39 @@ const News = () => {
             {/* Image */}
             <div className="md:w-1/2">
               <img
-                src={children_smiling}
+                src={session1}
                 alt="Dream Activity"
                 className="w-full h-full object-cover"
               />
             </div>
             {/* Content */}
-            <div className="md:w-1/2 p-6 flex flex-col justify-center">
-              <h3 className="text-2xl font-semibold text-dark-navy mb-2">
-                Session 1: Dream Activity
-              </h3>
-              <p className="text-gray-600 mb-3">
-                In the first session, children were encouraged to express their{" "}
-                <b>dreams</b> by writing them on colorful <b>charts</b>. This
-                activity helped them to visualize their goals in a creative way.
-              </p>
-              <p className="text-sm text-gray-500 mb-1">
-                Date: <b>5 October 2025 | 2:00 PM</b>
-              </p>
-              <p className="text-sm text-gray-500">
-                Conducted in collaboration with <b>Hafsa NGO</b>, assigned by{" "}
-                <b>Philop</b>.
-              </p>
-            </div>
+           <div className="md:w-1/2 p-6 flex flex-col justify-center">
+  <h3 className="text-2xl font-semibold text-dark-navy mb-2">
+    Session 1: Dream Activity
+  </h3>
+  <p className="text-gray-600 mb-3">
+    In the first session, children were encouraged to express their 
+    <b> dreams </b> by writing them on colorful <b> charts </b>. 
+    This fun and interactive activity helped them imagine their future goals 
+    in a more creative and confident way. Each child shared their unique vision, 
+    which created a warm and inspiring environment in the room.
+  </p>
+  <p className="text-gray-600 mb-3">
+    Along with the activity, we also played an exciting <b>match game</b> 
+    with the students. This friendly game helped build a stronger 
+    connection between our team and the children, making the session 
+    more joyful and full of energy. It also encouraged teamwork, 
+    sportsmanship, and confidence among the students.
+  </p>
+  <p className="text-sm text-gray-500 mb-1">
+    Date: <b>5 October 2025 | 2:00 PM</b>
+  </p>
+  <p className="text-sm text-gray-500">
+    Conducted in collaboration with <b>Hafsa NGO</b>, assigned by 
+    <b> Philop </b>.
+  </p>
+</div>
+
           </div>
 
           {/* Session 2 */}

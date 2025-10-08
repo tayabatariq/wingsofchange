@@ -7,6 +7,7 @@ import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import Events from "./pages/Events";
 import WhatsAppButton from "./components/WhatsAppButton";
+import Blog from "./pages/Blog";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/blog" element={<Blog />} />
+
 
       </Routes>
     <WhatsAppButton/>

@@ -12,6 +12,8 @@
     { name: "Gallery", path: "/gallery" },
     { name: "Contact", path: "/contact" },
     { name: "Events", path: "/events" },
+    { name: "Blogs", path: "/blog" },
+
   ];
 
   const Header = () => {

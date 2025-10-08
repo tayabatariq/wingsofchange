@@ -8,7 +8,7 @@ import {
 } from "../assets";
 import ButtonSolid from "./ui/buttons/ButtonSolid";
 
-import studentimage from '../assets/images/sudent.jpg'
+import studentimage from '../assets/student/session1/team2.jpg'
 
 const AboutSection = () => {
   return (
