@@ -3,6 +3,9 @@ import SideShapeHeading from "./ui/Headings/SideShapeHeading";
 import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
 import { black_boy_drinkwater, children_smiling, student_in_class } from "../assets";
 import session1 from '../assets/student/session11.jpg'
+import session3 from '../assets/student/session3/i45.jpg'
+import session2 from '../assets/student/event.jpg'
+
 
 const News = () => {
   return (
@@ -71,65 +74,76 @@ const News = () => {
 
           </div>
 
-          {/* Session 2 */}
-          <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-2xl overflow-hidden">
-            {/* Image */}
-            <div className="md:w-1/2">
-              <img
-                src={student_in_class}
-                alt="Poetry Competition"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            {/* Content */}
-            <div className="md:w-1/2 p-6 flex flex-col justify-center">
-              <h3 className="text-2xl font-semibold text-dark-navy mb-2">
-                Session 2: Naat & Poetry Competition
-              </h3>
-              <p className="text-gray-600 mb-3">
-                The second session featured a <b>Naat</b> and <b>Poetry</b>{" "}
-                competition, providing students an opportunity to showcase their
-                creativity and confidence in front of their peers.
-              </p>
-              <p className="text-sm text-gray-500 mb-1">
-                Date: <b>5 October 2025 | 2:00 PM</b>
-              </p>
-              <p className="text-sm text-gray-500">
-                Conducted in collaboration with <b>Hafsa NGO</b>, assigned by{" "}
-                <b>Philop</b>.
-              </p>
-            </div>
-          </div>
+       {/* Session 2 */}
+<div className="flex flex-col md:flex-row bg-white shadow-lg rounded-2xl overflow-hidden">
+  {/* Image */}
+  <div className="md:w-1/2">
+    <img
+      src={session2}
+      alt="Naat, Poetry & Activities"
+      className="w-full h-full object-cover"
+    />
+  </div>
+
+  {/* Content */}
+  <div className="md:w-1/2 p-6 flex flex-col justify-center">
+    <h3 className="text-2xl font-semibold text-dark-navy mb-2">
+      Session 2: Storytelling, Naat & Poetry Competition
+    </h3>
+    <p className="text-gray-600 mb-3">
+      In this session, we engaged students in <b>storytelling</b> activities,
+      followed by an exciting <b>Naat</b>, <b>Poetry</b>, and <b>Song competition</b>.
+      The aim was to help them express their creativity and build confidence
+      through fun and expressive performances. Later, we organized a friendly
+      <b> match</b> to add some energy and teamwork, and concluded the day by
+      <b> distributing fruits</b> among the children — lovingly brought by our
+      <b> volunteers</b>.
+    </p>
+    <p className="text-sm text-gray-500 mb-1">
+      Date: <b>5 October 2025 | 2:00 PM</b>
+    </p>
+    <p className="text-sm text-gray-500">
+      Conducted in collaboration with <b>Hafsa NGO</b>, assigned by <b>Philop</b>.
+    </p>
+  </div>
+</div>
+
 
           {/* Session 3 */}
-          <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-2xl overflow-hidden">
-            {/* Image */}
-            <div className="md:w-1/2">
-              <img
-                src={black_boy_drinkwater}
-                alt="Plantation Drive"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            {/* Content */}
-            <div className="md:w-1/2 p-6 flex flex-col justify-center">
-              <h3 className="text-2xl font-semibold text-dark-navy mb-2">
-                Session 3: Plantation Activity
-              </h3>
-              <p className="text-gray-600 mb-3">
-                The final session was a <b>Plantation Drive</b>, where children
-                actively participated in planting trees to contribute towards a
-                greener and healthier environment.
-              </p>
-              <p className="text-sm text-gray-500 mb-1">
-                Date: <b>5 October 2025 | 2:00 PM</b>
-              </p>
-              <p className="text-sm text-gray-500">
-                Conducted in collaboration with <b>Hafsa NGO</b>, assigned by{" "}
-                <b>Philop</b>.
-              </p>
-            </div>
-          </div>
+<div className="flex flex-col md:flex-row bg-white shadow-lg rounded-2xl overflow-hidden">
+  {/* Image */}
+  <div className="md:w-1/2">
+    <img
+      src={session3}
+      alt="Plantation and Pizza Party"
+      className="w-full h-full object-cover"
+    />
+  </div>
+
+  {/* Content */}
+  <div className="md:w-1/2 p-6 flex flex-col justify-center">
+    <h3 className="text-2xl font-semibold text-dark-navy mb-2">
+      Session 3: Plantation & Celebration
+    </h3>
+    <p className="text-gray-600 mb-3">
+      The final session was filled with both <b>learning</b> and <b>joy</b>.
+      We began with a meaningful <b>Plantation Activity</b>, where the children
+      enthusiastically planted trees, learning the importance of caring for
+      nature and building a greener future.  
+      <br />
+      To make their day extra special, we ended the session with a cheerful
+      <b> Pizza Party</b> — a small surprise organized by our <b>volunteers</b>,
+      bringing smiles, laughter, and happy memories to everyone.
+    </p>
+    <p className="text-sm text-gray-500 mb-1">
+      Date: <b>5 October 2025 | 2:00 PM</b>
+    </p>
+    <p className="text-sm text-gray-500">
+      Conducted in collaboration with <b>Hafsa NGO</b>, assigned by <b>Philop</b>.
+    </p>
+  </div>
+</div>
+
         </div>
       </div>
     </section>

@@ -31,7 +31,6 @@ const organizations = [
     logo: attiaLogo,
   },
 ];
-
 const Aboutprojects = () => {  
   return (  
     <>  
@@ -91,7 +90,6 @@ const Aboutprojects = () => {
                 alt="Wings of Change Activity"  
                 className="rounded-xl shadow-md w-[46.5%] max-lg:w-full max-lg:max-w-[600px]"  
               />  
-
               <div className="flex flex-col gap-8 max-lg:w-[70%] max-md:w-full">  
                 {organizations.map((org, index) => (  
                   <div  

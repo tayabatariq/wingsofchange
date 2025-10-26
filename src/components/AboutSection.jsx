@@ -2,21 +2,27 @@ import React from 'react';
 import { Heart, Compass, Shield } from 'lucide-react';
 import Servicess from "../components/Servicess";
 import PostsSection from './PostsSection';
+import plantation from '../assets/student/session3/i39.jpg'
+import mealTime from '../assets/student/session3/i25.jpg'
+import activities from '../assets/student/session3/i13.jpg'
+import Dreams from '../assets/student/session3/i2.jpg'
+
+
 
 
 const IMAGE_PLACEHOLDERS = {
   hero: "https://miramar.usmc-mccs.org/modules/media/t/5253ade0e5f544c4993fded7da8cfbcd.png?m=638312775111330000",
-  kidsLearning: "https://scitechdaily.com/images/Children-Language-School.jpg",
-  mealTime: "https://www.amaven.co.uk/files/styles/blog___news_node_image/public/image/blog/School-lunch2.jpg?itok=iA3NMAfu",
-  activities: "https://tist.school/uploads/media/social-skills66c6b9d074d3e.webp",
-  facilities: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ04cVhnjTxAvkDxWqSFSSg37X9U8xzuT3kOA&s"
+  Plantation:plantation,
+  mealTime: mealTime,
+  activities: activities,
+  Dreams: Dreams
 };
 
 const images = [
-  { src: IMAGE_PLACEHOLDERS.kidsLearning, caption: "Children Learning" },
+  { src: IMAGE_PLACEHOLDERS.Plantation, caption: "Plantation activity" },
   { src: IMAGE_PLACEHOLDERS.mealTime, caption: "Meal Time" },
   { src: IMAGE_PLACEHOLDERS.activities, caption: "Fun Activities" },
-  { src: IMAGE_PLACEHOLDERS.facilities, caption: "Our Facilities" },
+  { src: IMAGE_PLACEHOLDERS.Dreams, caption: "Their Dreams on the Board" },
 ];
 
 const ServicesSection = () => (

@@ -4,6 +4,9 @@ import SideShapeHeading from "./ui/Headings/SideShapeHeading";
 import YellowUnderlineHeading from "./ui/Headings/YellowUnderlineHeading";
 import imgwing from '../assets/student/session11.jpg'
 import amalLogo from "../assets/images/ammal.png";
+import project1 from '../assets/galleryimg/img14.jpg'
+import project2 from '../assets/student/session3/i42.jpg'
+
 
 
 import {
@@ -51,22 +54,23 @@ const ProjectSection = () => (
     <h2 className="text-4xl font-extrabold text-center mb-8 text-gray-800">Our Fellowship Project</h2>
     <p className="text-center text-gray-600 max-w-3xl mx-auto mb-10">
       As part of our <strong>Amal Fellowship</strong>, our team planned an outreach activity in an orphanage house.
-      The aim was to spend a day full of learning and fun with the children — engaging them in creative games,
+      The aim was to spend a day full of learning and fun with the children  engaging them in creative games,
       storytelling, and sharing small gifts to spread joy and hope. This initiative is not just an activity,
       but a step towards creating lasting positive memories for the children.
     </p>
     <div className="max-w-5xl mx-auto grid sm:grid-cols-2 gap-6">
-      <img
-        src="https://images.unsplash.com/photo-1588072432836-e10032774350"
-        alt="Volunteers with children"
-        className="rounded-xl shadow-lg object-cover w-full h-72"
-      />
-      <img
-        src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1"
-        alt="Activity with kids"
-        className="rounded-xl shadow-lg object-cover w-full h-72"
-      />
-    </div>
+  <img
+    src={project1}
+    alt="Volunteers with children"
+    className="rounded-xl shadow-lg object-cover object-center w-full h-72"
+  />
+  <img
+    src={project2}
+    alt="Activity with kids"
+    className="rounded-xl shadow-lg object-cover object-center w-full h-72"
+  />
+</div>
+
   </div>
 );
 const Projects = () => {
