@@ -64,11 +64,11 @@ const News = () => {
     sportsmanship, and confidence among the students.
   </p>
   <p className="text-sm text-gray-500 mb-1">
-    Date: <b>5 October 2025 | 2:00 PM</b>
+    Date: <b>4 October 2025 | 3:00 PM</b>
   </p>
   <p className="text-sm text-gray-500">
     Conducted in collaboration with <b>Hafsa NGO</b>, assigned by 
-    <b> Philop </b>.
+    <b> Ammal Academy </b>.
   </p>
 </div>
 
@@ -96,14 +96,14 @@ const News = () => {
       The aim was to help them express their creativity and build confidence
       through fun and expressive performances. Later, we organized a friendly
       <b> match</b> to add some energy and teamwork, and concluded the day by
-      <b> distributing fruits</b> among the children — lovingly brought by our
+      <b> distributing fruits</b> among the children  lovingly brought by our
       <b> volunteers</b>.
     </p>
     <p className="text-sm text-gray-500 mb-1">
-      Date: <b>5 October 2025 | 2:00 PM</b>
+      Date: <b>10 October 2025 | 3:00 PM</b>
     </p>
     <p className="text-sm text-gray-500">
-      Conducted in collaboration with <b>Hafsa NGO</b>, assigned by <b>Philop</b>.
+      Conducted in collaboration with <b>Hafsa NGO</b>, assigned by <b>Ammal Academy</b>.
     </p>
   </div>
 </div>
@@ -132,14 +132,14 @@ const News = () => {
       nature and building a greener future.  
       <br />
       To make their day extra special, we ended the session with a cheerful
-      <b> Pizza Party</b> — a small surprise organized by our <b>volunteers</b>,
+      <b> Pizza Party</b> a small surprise organized by our <b>volunteers</b>,
       bringing smiles, laughter, and happy memories to everyone.
     </p>
     <p className="text-sm text-gray-500 mb-1">
-      Date: <b>5 October 2025 | 2:00 PM</b>
+      Date: <b>24 October 2025 | 3:00 PM</b>
     </p>
     <p className="text-sm text-gray-500">
-      Conducted in collaboration with <b>Hafsa NGO</b>, assigned by <b>Philop</b>.
+      Conducted in collaboration with <b>Hafsa NGO</b>, assigned by <b>Ammal Academy</b>.
     </p>
   </div>
 </div>
