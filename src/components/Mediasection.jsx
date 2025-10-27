@@ -22,6 +22,21 @@ import img16 from '../assets/galleryimg/img16.jpg';
 
 // image 2 for session
 import s2img1 from '../assets/student/session2/v1.jpg';
+import s2img2 from '../assets/student/session2/s2i1.jpg';
+import s2img3 from '../assets/student/session2/s2i3.jpg';
+import s2img4 from '../assets/student/session2/s2i4.jpg';
+import s2img5 from '../assets/student/session2/s2i5.jpg';
+import s2img6 from '../assets/student/session2/s2i6.jpg';
+import s2img7 from '../assets/student/session2/s2i7.jpg';
+import s2img8 from '../assets/student/session2/s2i8.jpg';
+import s2img9 from '../assets/student/session2/s2i9.jpg';
+import s2img10 from '../assets/student/session2/s2i10.jpg';
+import s2img11 from '../assets/student/session2/s2i11.jpg';
+import s2img12 from '../assets/student/session2/s2i12.jpg';
+
+import s2img14 from '../assets/student/session2/s2i14.jpg';
+
+
 
 // image 3 for session.
 import s3img1 from '../assets/student/session3/i1.jpg';
@@ -182,6 +197,18 @@ const Mediasection = () => {
     { src: img16, session: "session1" },
     // session2 images
     { src: s2img1, session: "session2" },
+    { src: s2img2, session: "session2" },
+    { src: s2img3, session: "session2" },
+    { src: s2img4, session: "session2" },
+    { src: s2img5, session: "session2" },
+    { src: s2img6, session: "session2" },
+    { src: s2img7, session: "session2" },
+    { src: s2img8, session: "session2" },
+    { src: s2img9, session: "session2" },
+    { src: s2img10, session: "session2" },
+    { src: s2img11, session: "session2" },
+    { src: s2img12, session: "session2" },
+      { src: s2img14, session: "session2" },
   //  session3 images
     { src: s3img1, session: "session3" },
     { src: s3img2, session: "session3" },

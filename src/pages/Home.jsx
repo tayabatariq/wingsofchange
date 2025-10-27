@@ -10,12 +10,14 @@ import Marquee from "../components/Marquee";
 import Teammembers from "../components/Teammembers";
 import PartnerSection from "../components/PartnerSection";
 import OrganizationSection from "../components/OrganizationSection";
+import ActivitiesSection from "../components/ActivitiesSection";
 
 const Home = () => {
   return (
     <>
       <main className="w-full">
         <HomeSection />
+        <ActivitiesSection />
         <CoreValues />
         <AboutSection />
         <Teammembers/>
